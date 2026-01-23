@@ -3127,7 +3127,7 @@ img[src^="https://trkn.us/pixel"] {
     }
 }
 .header-bg {
-    background-image: url('Ryan-Engle.jpg'); /* Replace with your image path */
+    background-image: url('./images/Ryan-Engle.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: top center; /* Aligns image to the top */
     position: relative;

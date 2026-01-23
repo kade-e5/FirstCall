@@ -47,8 +47,8 @@
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  /* padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5); */
   margin-top: var(--bs-gutter-y);
   background-color: #00346d;
 }
@@ -97,12 +97,12 @@
         }
 
         /* Fix inline style typo and consolidate */
-        h2 {
+        /* h2 {
             font-size: 30pt;
             color: #000000;
             border-bottom: 3px solid #ff0000;
             padding-bottom: 10pt;
-        }
+        } */
 
 @font-face {
     font-family: league-gothic;
@@ -157,7 +157,7 @@ h6 {
     clear: both;
     line-height: 1.4;
     /* margin: 0 0 .75em; */
-    padding: 1.5em 0 0
+    /* padding: 1.5em 0 0 */
 }
 
 h1:first-child,
@@ -179,12 +179,8 @@ h1,
 
 .h2,
 h2 {
-    font-size: 28px;
-    font-size: 1.75rem;
-    font-weight: 700;
-    margin: 20px 0;
-    padding: 0;
-    color: #000
+    color: #000000;
+    font-weight: bold;
 }
 
 .h2,
@@ -194,12 +190,12 @@ h2 {
 
 .h3,
 h3 {
-    color: #ff0000;
+    /* color: #ff0000; */
     /* font-size: 26px; */
     /* font-size: 1.625rem; */
-    font-weight: 400;
+    /* font-weight: 400; */
     /* font-family: "League Gothic", "Arial", "Helvetica", sans-serif; */
-    margin: 10px 0
+    /* margin: 10px 0 */
 }
 
 .h3 a,
@@ -216,25 +212,25 @@ h3 a:hover {
 
 .h4,
 h4 {
-    font-size: 18px;
+    /* font-size: 18px;
     font-size: 1.125rem;
     font-weight: 700;
     margin: 15px 0;
-    padding: 0
+    padding: 0 */
 }
 
 h5 {
-    font-size: 14px;
+    /* font-size: 14px;
     font-size: .875rem;
     font-weight: 600;
-    text-transform: uppercase
+    text-transform: uppercase */
 }
 
 h6 {
-    color: #333;
+    /* color: #333;
     font-size: 15px;
     font-size: .9375rem;
-    font-weight: 800
+    font-weight: 800 */
 }
 
 p {
@@ -3131,7 +3127,7 @@ img[src^="https://trkn.us/pixel"] {
     }
 }
 .header-bg {
-    background-image: url('Ryan-Engle.jpg'); /* Replace with your image path */
+    background-image: url('./images/Ryan-Engle.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: top center; /* Aligns image to the top */
     position: relative;
@@ -3207,3 +3203,44 @@ img[src^="https://trkn.us/pixel"] {
     font-size: 1.25rem;
 }
 /* BLOG END  */
+/* SIDE BAR WATER IMAGE START */
+.sidebar-water-img {
+    /* Background image with red overlay */
+    background: 
+        linear-gradient(rgba(255, 0, 0, 0.65), rgba(255, 0, 0, 0.65)),
+        url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Froyalrestorationdmv.com%2Fwp-content%2Fuploads%2F2024%2F06%2FWater-Mitigation-scaled.jpeg&f=1&nofb=1&ipt=f366ff0c69fc75f37c008ee1969e7f93464dc9c51a93870db894c607d6b6684d') center center / cover no-repeat;
+    
+    /* Make the section tall enough */
+    min-height: 50vh; /* Adjust this value or use 80vh for more dynamic height */
+    
+    /* Flexbox to center content */
+    display: flex;
+    align-items: center;     /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
+    
+    /* Text styling */
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 10px;      /* Keeps some breathing room on small screens */
+}
+
+/* Optional: Constrain text width and improve readability */
+.sidebar-water-img .text-content {
+    max-width: 900px;        /* Prevents text from stretching too wide on large screens */
+    width: 100%;
+}
+
+/* Optional: Typography tweaks */
+.sidebar-water-img h5 {
+    font-size: 1.4rem;
+    margin: 12px 0;
+    font-weight: normal;
+}
+
+.sidebar-water-img h3 {
+    font-size: 2.8rem;
+    margin: 15px 0;
+    font-weight: bold;
+    line-height: 1.2;
+}
+/* SIDE BAR WATER IMAGE END */
