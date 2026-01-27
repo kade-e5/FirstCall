@@ -97,12 +97,12 @@
         }
 
         /* Fix inline style typo and consolidate */
-        h2 {
+        /* h2 {
             font-size: 30pt;
             color: #000000;
             border-bottom: 3px solid #ff0000;
             padding-bottom: 10pt;
-        }
+        } */
 
 @font-face {
     font-family: league-gothic;
@@ -157,7 +157,7 @@ h6 {
     clear: both;
     line-height: 1.4;
     /* margin: 0 0 .75em; */
-    padding: 1.5em 0 0
+    /* padding: 1.5em 0 0 */
 }
 
 h1:first-child,
@@ -587,7 +587,6 @@ a.red-btn:hover {
 #header {
     position: relative;
     text-align: left;
-    padding-bottom: 25px;
     z-index: 9998
 }
 
