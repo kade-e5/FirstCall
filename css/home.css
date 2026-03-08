@@ -2973,9 +2973,11 @@ img[src^="https://trkn.us/pixel"] {
 
         /* CUSTOM CSS  */
 .navbar {
-  background-color: #f1f1f1;
+  background-color: transparent;
   margin-bottom: 0;
+  z-index: 10;
 }
+
 .navbar-nav>li>a {
   color: black;
   text-transform: uppercase;
