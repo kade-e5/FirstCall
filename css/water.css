@@ -50,7 +50,7 @@
   /* padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5); */
   margin-top: var(--bs-gutter-y);
-  background-color: #00346d;
+  background-color: #1e90ff;
 }
 @media (min-width: 576px) {
   .example-content-secondary {
@@ -1167,7 +1167,7 @@ a.red-btn:hover {
 }
 
 #page-featured .red-btn:hover {
-    background-color: #00346d
+    background-color: #1e90ff
 }
 
 @media (max-width: 850px) {
@@ -1303,7 +1303,7 @@ a.red-btn:hover {
     top: 0px;
     left: 0;
     width: 100%;
-    background-color: #ff0000;
+    background-color: #1e90ff;
     font-size: 16px;
     font-size: 1rem;
     color: #fff;
@@ -1379,7 +1379,7 @@ a.red-btn:hover {
     margin-left: 40px;
     font-family: inherit;
     font-size: inherit;
-    background-color: #00346d
+    background-color: #1e90ff
 }
 
 #services-bar .content #bar-contact a.button:hover {
@@ -1523,7 +1523,7 @@ a.red-btn:hover {
 }
 
 .home-intro .translated-btn-wrapper.desktop .translated-btn {
-    background-color: #15346d !important;
+    background-color: #1e90ff !important;
     padding: 10px 20px;
     color: #fff !important;
     text-transform: uppercase;
@@ -1565,7 +1565,7 @@ a.red-btn:hover {
     }
 } */
 /* #home-sidebar {
-    background-color: #00346d;
+    background-color: #1e90ff;
     color: #fff;
     padding-top: 30px;
     -ms-flex-line-pack: space-between;
@@ -1696,7 +1696,7 @@ a.red-btn:hover {
 
 .home-customer a {
     color: #fff;
-    background-color: #00346d;
+    background-color: #1e90ff;
     display: block
 }
 
@@ -1809,7 +1809,7 @@ a.red-btn:hover {
 
 .home-customer a {
     color: #fff;
-    background-color: #00346d;
+    background-color: #1e90ff;
     display: block
 }
 
@@ -2189,7 +2189,7 @@ a.red-btn:hover {
     font-weight: bold;
     font-size: 400%;
     line-height: 1;
-    color: #00346d
+    color: #1e90ff
 }
 
 .testimonial-small:before {
@@ -2205,7 +2205,7 @@ a.red-btn:hover {
     font-weight: bold;
     font-size: 400%;
     line-height: 1;
-    color: #00346d
+    color: #1e90ff
 }
 
 .testimonial-small:after {
@@ -2953,11 +2953,11 @@ img[src^="https://trkn.us/pixel"] {
         }
 
         #footer-3 #footer-3-blue {
-            background-color: #00346d
+            background-color: #1e90ff
         }
 
         #footer-3 #footer-3-red {
-            background-color: #d0232a
+            background-color: #ff0000
         }
 
         #footer-3 #footer-3-gray {
@@ -3006,7 +3006,7 @@ img[src^="https://trkn.us/pixel"] {
   width: 72%;
 }
 .home-sidebar {
-  background-color: #15346d;
+  background-color: #1e90ff;
   color: #ffff;
   padding-top: 0px;
 }

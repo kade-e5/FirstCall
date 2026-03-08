@@ -1303,7 +1303,7 @@ a.red-btn:hover {
     top: 0px;
     left: 0;
     width: 100%;
-    background-color: #ff0000;
+    background-color: #474554;
     font-size: 16px;
     font-size: 1rem;
     color: #fff;
@@ -2189,7 +2189,7 @@ a.red-btn:hover {
     font-weight: bold;
     font-size: 400%;
     line-height: 1;
-    color: #ff0000
+    color: #474554
 }
 
 .testimonial-small:before {
@@ -2205,7 +2205,7 @@ a.red-btn:hover {
     font-weight: bold;
     font-size: 400%;
     line-height: 1;
-    color: #ff0000
+    color: #474554
 }
 
 .testimonial-small:after {
